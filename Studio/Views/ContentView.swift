@@ -68,10 +68,10 @@ struct ContentView: View {
                     .multilineTextAlignment(.center)
                     .font(.caption)
                 HStack {
-                    Link(destination: URL(string: "https://github.com/ultimatecatperson/Studio-Teleprompter")!) {
+                    Link(destination: URL(string: "https://github.com/Random-Meow1/Studio")!) {
                         Label("Open source", systemImage: "arrow.up.forward")
                     }
-                    Link(destination: URL(string: "mailto:randommeowofficial@icloud.com?subject=I%20want%20to%20join%20the%20beta%20for%20Studio:%20Teleprompter")!) {
+                    Link(destination: URL(string: "https://testflight.apple.com/join/8ZvFk7w5")!) {
                         Label("Join the beta", systemImage: "testtube.2")
                     }
                 }
@@ -86,10 +86,10 @@ struct ContentView: View {
                     .padding(.top, 10)
                     .foregroundStyle(.secondary)
                 HStack {
-                    Link(destination: URL(string: "https://youtube.com/@RandomMeowMain")!) {
+                    Link(destination: URL(string: "https://youtube.com/@Random_Meow0")!) {
                         Label("YouTube", systemImage: "play.rectangle.fill")
                     }
-                    Link(destination: URL(string: "https://github.com/ultimatecatperson")!) {
+                    Link(destination: URL(string: "https://github.com/random-meow1")!) {
                         Label("GitHub", systemImage: "person.circle")
                     }
                 }
